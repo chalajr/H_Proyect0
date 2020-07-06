@@ -1,0 +1,32 @@
+.logoG{
+    margin-top: 25%;
+}
+.formMod{
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}
+.logoMargin{
+    margin-top: 20%;
+}
+.formMargin{
+    margin-top: 20px;
+    border-radius: 150px;
+}
+.buttonMargin{
+    margin-top: 5%;
+}
+
+
+
+@media (max-width: 499px) {
+    img{
+        width: 200px;
+    }
+    .formMargin{
+        margin-top: 15%;
+    }
+    }
