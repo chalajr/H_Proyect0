@@ -1,41 +1,107 @@
-.logoG{
+body,
+td,
+a,
+p,
+.h {
+    font-family: arial, sans-serif;
+}
+
+.logoG {
     margin-top: 25%;
 }
-.formMod{
+
+.formMod {
     margin-left: 45%;
     margin-right: 45%;
 }
-.center_div{
+
+.center_div {
     margin: 0 auto;
-    width:80% /* value of your choice which suits your alignment */
+    width: 80%
+        /* value of your choice which suits your alignment */
 }
-.logoMargin{
-    margin-top: 20%;
+
+.logoMargin {
+    margin-top: 10%;
 }
-.formMargin{
+
+.logo-images {
+    margin-top: 10%;
+    max-width: 280px;
+}
+
+.formMargin {
+    padding-left: 10%;
     margin-top: 20px;
     border-radius: 150px;
 }
-.buttonMargin{
-    margin-top: 5%;
+
+.buttonMargin {
+    margin-top: 20%;
 }
-.topLinks{
-    color: #222;   
+
+.topLinks {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #222;
     text-align: right;
     font-size: 13px;
 }
+
 a:hover {
     color: gray;
-  }
-.imagesLogo{
+}
+
+.input-icons {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 3%;
+}
+
+.input-icons-mic {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 88%;
+}
+
+.imagesLogo {
     max-width: 300px;
 }
 
-@media (max-width: 499px) {
-    img{
-        width: 200px;
-    }
-    .formMargin{
+.user-Logo {
+    border-radius: 100%;
+    margin-top: 35%;
+}
+
+@media (max-width: 765px) {
+    .buttonMargin {
         margin-top: 15%;
     }
+
+    .input-icons {
+        visibility: hidden;
     }
+
+    .input-icons-mic {
+        visibility: hidden;
+    }
+
+    .navHide {
+        display: none;
+    }
+}
+
+@media (max-width: 577px) {
+    img {
+        width: 200px;
+    }
+
+    .formMargin {
+        margin-top: 15%;
+    }
+
+    .buttonMargin {
+        margin-top: 5%;
+    }
+
+}
