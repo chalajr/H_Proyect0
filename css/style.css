@@ -19,8 +19,17 @@
 .buttonMargin{
     margin-top: 5%;
 }
-
-
+.topLinks{
+    color: #222;   
+    text-align: right;
+    font-size: 13px;
+}
+a:hover {
+    color: gray;
+  }
+.imagesLogo{
+    max-width: 300px;
+}
 
 @media (max-width: 499px) {
     img{
